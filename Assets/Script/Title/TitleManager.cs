@@ -2,10 +2,13 @@ using UnityEngine;
 
 public class TitleManager : MonoBehaviour
 {
-    [SerializeField] private PlayerType playerType = PlayerType.Plain1;
+    private void Start()
+    {
+        GameSystem.Instance.SetState(GameState.Title);
+    }
 
     public void StartGame()
     {
-        GameSystem.Instance.StartGame(playerType);
+        GameSystem.Instance.ChangeScene(SceneName.Game);
     }
 }
