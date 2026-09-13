@@ -618,6 +618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadManager
   textScore: {fileID: 1898365093}
+  bgmDead: {fileID: 8300000, guid: 453dee55ed5f05a44aba73220371c568, type: 3}
 --- !u!1 &1452171669
 GameObject:
   m_ObjectHideFlags: 0

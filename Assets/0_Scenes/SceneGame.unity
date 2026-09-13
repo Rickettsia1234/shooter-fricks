@@ -383,6 +383,7 @@ MonoBehaviour:
     prefab: {fileID: 6406844037622160393, guid: 8753bda36ef0e504b8a007640dfc4442, type: 3}
     lastSpawnTime: 0
   drawManager: {fileID: 1356682644}
+  bgmGame: {fileID: 8300000, guid: c6eb60fafcd70874b960c07f0d0d0459, type: 3}
 --- !u!1 &899716111
 GameObject:
   m_ObjectHideFlags: 0

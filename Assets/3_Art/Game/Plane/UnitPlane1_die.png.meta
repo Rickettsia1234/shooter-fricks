@@ -1,0 +1,528 @@
+fileFormatVersion: 2
+guid: 76259f425870e33458532f1d4ef20ec7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4468652598773441816
+    second: UnitPlane1_die_0
+  - first:
+      213: 7693991479790686694
+    second: UnitPlane1_die_1
+  - first:
+      213: 2724031344099410026
+    second: UnitPlane1_die_2
+  - first:
+      213: 5832495325717724533
+    second: UnitPlane1_die_3
+  - first:
+      213: 847771222003301315
+    second: UnitPlane1_die_4
+  - first:
+      213: -5327906351949621586
+    second: UnitPlane1_die_5
+  - first:
+      213: 965297885008657770
+    second: UnitPlane1_die_6
+  - first:
+      213: -8776013193233602099
+    second: UnitPlane1_die_7
+  - first:
+      213: -3025732213651528417
+    second: UnitPlane1_die_8
+  - first:
+      213: 225134040554422610
+    second: UnitPlane1_die_9
+  - first:
+      213: -7704368174064578891
+    second: UnitPlane1_die_10
+  - first:
+      213: -468190916782409641
+    second: UnitPlane1_die_11
+  - first:
+      213: -8188412530200208555
+    second: UnitPlane1_die_12
+  - first:
+      213: -7047541711127276632
+    second: UnitPlane1_die_13
+  - first:
+      213: -1589370732570978159
+    second: UnitPlane1_die_14
+  - first:
+      213: 2573565342464721180
+    second: UnitPlane1_die_15
+  - first:
+      213: -2371286382293590248
+    second: UnitPlane1_die_16
+  - first:
+      213: 4073668793654948442
+    second: UnitPlane1_die_17
+  - first:
+      213: 3434023568547206409
+    second: UnitPlane1_die_18
+  - first:
+      213: 8923679973376498222
+    second: UnitPlane1_die_19
+  - first:
+      213: 7769994684346540550
+    second: UnitPlane1_die_20
+  - first:
+      213: -8342204959238861109
+    second: UnitPlane1_die_21
+  - first:
+      213: 4512202702442522882
+    second: UnitPlane1_die_22
+  - first:
+      213: -6015825870475356360
+    second: UnitPlane1_die_23
+  - first:
+      213: 3903732375978090824
+    second: UnitPlane1_die_24
+  - first:
+      213: -916075734779377962
+    second: UnitPlane1_die_25
+  - first:
+      213: 1028970427481070871
+    second: UnitPlane1_die_26
+  - first:
+      213: 6053499870504531922
+    second: UnitPlane1_die_27
+  - first:
+      213: 1998926777465115220
+    second: UnitPlane1_die_28
+  - first:
+      213: -6819582177768034142
+    second: UnitPlane1_die_29
+  - first:
+      213: 2600356173546107752
+    second: UnitPlane1_die_30
+  - first:
+      213: -6730128844214242148
+    second: UnitPlane1_die_31
+  - first:
+      213: -1067664848146757127
+    second: UnitPlane1_die_32
+  - first:
+      213: -5934217272409076859
+    second: UnitPlane1_die_33
+  - first:
+      213: 2869900071430087375
+    second: UnitPlane1_die_34
+  - first:
+      213: 3469061613136571750
+    second: UnitPlane1_die_35
+  - first:
+      213: -5991563187864961719
+    second: UnitPlane1_die_36
+  - first:
+      213: -8180502082530711393
+    second: UnitPlane1_die_37
+  - first:
+      213: 5016964084530722702
+    second: UnitPlane1_die_38
+  - first:
+      213: -6299739388280554453
+    second: UnitPlane1_die_39
+  - first:
+      213: -2215125845796526591
+    second: UnitPlane1_die_40
+  - first:
+      213: 5494788776127412808
+    second: UnitPlane1_die_41
+  - first:
+      213: -5204411698560884237
+    second: UnitPlane1_die_42
+  - first:
+      213: -4823096065419910545
+    second: UnitPlane1_die_43
+  - first:
+      213: -4606169227321654128
+    second: UnitPlane1_die_44
+  - first:
+      213: 2746922307827932126
+    second: UnitPlane1_die_45
+  - first:
+      213: 2674791631492107162
+    second: UnitPlane1_die_46
+  - first:
+      213: 7470624059733159102
+    second: UnitPlane1_die_47
+  - first:
+      213: 3457992943919977280
+    second: UnitPlane1_die_48
+  - first:
+      213: -8803292086288847412
+    second: UnitPlane1_die_49
+  - first:
+      213: 878673676282825195
+    second: UnitPlane1_die_50
+  - first:
+      213: -7765233516145227338
+    second: UnitPlane1_die_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UnitPlane1_die_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8156486dcd7d30e30800000000000000
+      internalID: 4468652598773441816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitPlane1_die_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e15ec18c7c86ca60800000000000000
+      internalID: 7693991479790686694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitPlane1_die_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60431e2314bdc520800000000000000
+      internalID: 2724031344099410026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitPlane1_die_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57df78bc89f21f050800000000000000
+      internalID: 5832495325717724533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitPlane1_die_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb3e4a4f63e3cb00800000000000000
+      internalID: 847771222003301315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitPlane1_die_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6de7fb6697f06b0800000000000000
+      internalID: -5327906351949621586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitPlane1_die_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d7062ef4d656d00800000000000000
+      internalID: 965297885008657770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitPlane1_die_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc96b218f76553680800000000000000
+      internalID: -8776013193233602099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitPlane1_die_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1528db25907206d0800000000000000
+      internalID: -3025732213651528417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitPlane1_die_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25148129736df1300800000000000000
+      internalID: 225134040554422610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnitPlane1_die_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be4e0617f5941590800000000000000
+      internalID: -7704368174064578891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4961717f7965ba74bb61772f06ceaf23
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":true,"isAlternate":false}'
+    nameFileIdTable:
+      UnitPlane1_die_0: 4468652598773441816
+      UnitPlane1_die_1: 7693991479790686694
+      UnitPlane1_die_10: -7704368174064578891
+      UnitPlane1_die_2: 2724031344099410026
+      UnitPlane1_die_3: 5832495325717724533
+      UnitPlane1_die_4: 847771222003301315
+      UnitPlane1_die_5: -5327906351949621586
+      UnitPlane1_die_6: 965297885008657770
+      UnitPlane1_die_7: -8776013193233602099
+      UnitPlane1_die_8: -3025732213651528417
+      UnitPlane1_die_9: 225134040554422610
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
