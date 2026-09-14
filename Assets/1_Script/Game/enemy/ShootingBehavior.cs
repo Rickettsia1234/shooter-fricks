@@ -11,7 +11,6 @@ public class ShootingBehavior : MonoBehaviour
     [SerializeField] private float bulletSpeed = 15f;
     [SerializeField] private int bulletDamage = 1;
     [SerializeField] private TargetType targetType = TargetType.Player;
-    [SerializeField] private float prepareTime = 0.5f;
     [SerializeField] private GameObject warningIcon;
     [SerializeField] protected AudioSource audioSource;
     [SerializeField] private AudioClip sfxFire;
