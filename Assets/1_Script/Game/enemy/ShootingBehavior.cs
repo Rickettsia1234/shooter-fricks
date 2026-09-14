@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using Cysharp.Threading.Tasks;
 
 [RequireComponent(typeof(EnemyBase))]
 public class ShootingBehavior : MonoBehaviour
@@ -19,11 +20,16 @@ public class ShootingBehavior : MonoBehaviour
     private float fireTimer;
     private bool isShooting;
     private Vector3 warningLocalOffset;
+    private Animator warningAnimator;
 
     private void Awake()
     {
         enemyData = GetComponent<EnemyBase>();
         warningLocalOffset = warningIcon.transform.localPosition;
+        if (warningIcon != null)
+        {
+            warningAnimator = warningIcon.GetComponent<Animator>();
+        }
     }
 
     private void Update()
@@ -37,17 +43,20 @@ public class ShootingBehavior : MonoBehaviour
         if (fireTimer >= fireInterval)
         {
             fireTimer = 0f;
-            StartCoroutine(ShootRoutine());
+            ShootRoutine().Forget();
         }
     }
 
-    private IEnumerator ShootRoutine()
+    private async UniTaskVoid ShootRoutine()
     {
         isShooting = true;
 
-        warningIcon.GetComponent<Animator>().Rebind();
+        if (warningAnimator != null)
+        {
+            warningAnimator.Rebind();
+        }
 
-        yield return new WaitForSeconds(prepareTime);
+        await UniTask.Delay(System.TimeSpan.FromSeconds(prepareTime));
 
         Vector2 fireDir = transform.up;
 

@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using Cysharp.Threading.Tasks;
 
 public class EnemyBase : MonoBehaviour
 {
@@ -68,10 +69,10 @@ public class EnemyBase : MonoBehaviour
     public void Die()
     {
         if (isDead) return;
-        StartCoroutine(DieRoutine());
+        DieRoutine().Forget();
     }
 
-    private IEnumerator DieRoutine()
+    private async UniTaskVoid DieRoutine()
     {
         isDead = true;
 
@@ -98,7 +99,7 @@ public class EnemyBase : MonoBehaviour
             animator.SetTrigger(DieHash);
         }
 
-        yield return new WaitForSeconds(dieAnimTime);
+        await UniTask.Delay(System.TimeSpan.FromSeconds(dieAnimTime));
 
         GameManager.Instance.DespawnEnemy(this);
     }

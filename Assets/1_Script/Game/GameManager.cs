@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Pool;
 using Unity.Cinemachine;
+using Cysharp.Threading.Tasks;
 
 [System.Serializable]
 public struct EnemySpawnData
@@ -68,7 +69,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         GameSystem.Instance.SetState(GameState.Game);
-        StartCoroutine(SpawnAndDespawnRoutine());
+        SpawnAndDespawnRoutine().Forget();
         AudioManager.Instance.SetBGM(bgmGame);
         AudioManager.Instance.PlayBGM();
     }
@@ -114,12 +115,12 @@ public class GameManager : MonoBehaviour
         return pool;
     }
 
-    private IEnumerator SpawnAndDespawnRoutine()
+    private async UniTaskVoid SpawnAndDespawnRoutine()
     {
-        WaitForSeconds waitOneSecond = new WaitForSeconds(1f);
-        while (true)
+        var cancellationToken = this.GetCancellationTokenOnDestroy();
+        while (!isQuitting)
         {
-            yield return waitOneSecond;
+            await UniTask.Delay(System.TimeSpan.FromSeconds(1f), cancellationToken: cancellationToken);
 
             DespawnFarObjects(activeEnemies, despawnDistance);
             DespawnFarObjects(activeBullets, despawnDistance);

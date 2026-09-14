@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Cysharp.Threading.Tasks;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : PlayerBase
@@ -20,11 +21,13 @@ public class PlayerController : PlayerBase
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip sfxDie;
 
+    private Camera mainCamera;
     private bool isDead;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        mainCamera = Camera.main;
     }
 
     private void Update()
@@ -34,7 +37,7 @@ public class PlayerController : PlayerBase
         var mouse = Mouse.current;
 
         Vector3 mouseScreenPosition = mouse.position.ReadValue();
-        Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(mouseScreenPosition);
+        Vector3 mouseWorldPosition = mainCamera.ScreenToWorldPoint(mouseScreenPosition);
         Vector2 direction = (mouseWorldPosition - transform.position).normalized;
 
         float calculatedTargetAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
@@ -96,10 +99,10 @@ public class PlayerController : PlayerBase
         if (isInvincible || isDead) return;
 
         fireAnimator.SetTrigger(DieHash);
-        StartCoroutine(DieRoutine());
+        DieRoutine().Forget();
     }
 
-    private IEnumerator DieRoutine()
+    private async UniTaskVoid DieRoutine()
     {
         isDead = true;
 
@@ -118,7 +121,7 @@ public class PlayerController : PlayerBase
             planeAnimator.SetTrigger(DieHash);
         }
 
-        yield return new WaitForSeconds(dieAnimTime);
+        await UniTask.Delay(System.TimeSpan.FromSeconds(dieAnimTime));
 
         GameManager.Instance.PlayerDead();
     }
