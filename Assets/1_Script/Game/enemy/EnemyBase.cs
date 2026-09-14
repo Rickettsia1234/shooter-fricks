@@ -13,8 +13,6 @@ public class EnemyBase : MonoBehaviour
     [SerializeField] protected float minTurnSpeed = 30f;
     [SerializeField] protected int damage = 1;
     [SerializeField] protected int score = 1;
-
-    [SerializeField] protected float dieAnimTime = 0.5f;
     [SerializeField] protected Animator animator;
     [SerializeField] protected Collider2D col;
     [SerializeField] protected Behaviour[] behaviorsToDisable;
@@ -99,7 +97,8 @@ public class EnemyBase : MonoBehaviour
             animator.SetTrigger(DieHash);
         }
 
-        await UniTask.Delay(System.TimeSpan.FromSeconds(dieAnimTime));
+        await UniTask.Yield();
+        await UniTask.WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f);
 
         GameManager.Instance.DespawnEnemy(this);
     }

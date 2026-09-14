@@ -56,7 +56,8 @@ public class ShootingBehavior : MonoBehaviour
             warningAnimator.Rebind();
         }
 
-        await UniTask.Delay(System.TimeSpan.FromSeconds(prepareTime));
+        await UniTask.Yield();
+        await UniTask.WaitUntil(() => warningAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f);
 
         Vector2 fireDir = transform.up;
 
